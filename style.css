@@ -1,0 +1,252 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+
+/* Header Part design. */
+.headerContainer
+{
+    background-image: url(images/banner-background.png);
+}
+/* Header Part design ends. */
+
+/* Navigation Part design. */
+.navContainer
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.navContainer ul
+{
+    display: flex;
+    gap: 100px;
+    padding-top: 30px;
+}
+
+.navContainer ul li
+{
+    list-style: none;
+}
+
+.navContainer ul li a
+{
+    color: rgb(251, 157, 92);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navContainer ul li a:hover
+{
+    color: white;
+    transition: 0.5s;
+}
+/* Navigation Part design ends. */
+
+/*Banner Container design*/
+.bannerContainer
+{
+    display: flex;
+    justify-content: space-around;
+}
+/* Banner Container design ends. */
+
+/* Banner left Part design. */
+.bannerLeft
+{
+    text-align: center;
+    padding-top: 15%;
+}
+.bannerLeft p
+{
+    color: rgb(251, 157, 92);
+    font-size: 30px;
+}
+
+.bannerLeft h1
+{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.bannerLeft button
+{
+    width: 125px;
+    height: 50px;
+    background-color: rgb(251, 157, 92);
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+}
+
+.bannerLeft button a
+{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.bannerLeft button:hover 
+{
+    background-color: grey;
+    transition: 0.5s;
+}
+
+.bannerLeft button a:hover 
+{
+    color:rgb(251, 157, 92);
+    font-weight: bold;
+    transition: 0.5s;
+}
+/* Banner left part design ends. */
+
+/* Service Logo Container design. */
+.serviceLogoContainer
+{
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+/* Service Logo Container design ends. */
+
+/* Service Details Container design. */
+
+.serviceDetailsContainer
+{
+    padding: 50px;
+}
+.serviceHeading
+{
+    text-align: center;
+}
+.serviceHeading h1
+{
+    font-size: 60px;
+}
+.serviceHeading p
+{
+    font-size: 18px;
+    font-weight: thin;
+}
+
+.serviceCard
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 40px 20px;
+    margin-top: 70px;
+}
+.serviceCard img
+{
+    max-width: 100%;
+    height: auto;
+}
+.serviceCard h2 
+{
+    margin: 10px 0;         
+    font-size: 1.5em;
+    text-align: center;
+}
+.serviceCard p 
+{
+    text-align: center;        
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.serviceCard-firstRow, .serviceCard-secondRow
+{
+    display: flex;
+    justify-content: space-around;
+}
+/* Service Details Container design ends. */
+
+/* Hiring Info container design. */
+.hiringInfo
+{
+    display: flex;
+    padding: 20px 120px;
+}
+.rightText
+{
+    margin-left:250px;
+}
+.rightText button
+{
+    background-color: rgb(13, 202, 240);
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 25px;
+}
+.rightText button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.rightText h1
+{
+    font-size: 2.5em;
+}
+.rightText p
+{
+    font-size: 1.25em;
+    padding: 20px 0px;
+}
+.contactNumber
+{
+    display: flex;
+}
+.contactNumber h2
+{
+    font-size: 1.8em;
+    padding: 0px 30px;
+}
+.rightText h3
+{
+    font-size: 1.7em;
+    padding: 15px 0px;
+}
+
+.footerElemetsContainer
+{
+    background-color: black;
+    display: flex;
+    padding: 70px;
+    justify-content: space-around;
+}
+.text1-img-heading
+{
+    display: flex;
+    align-items: center;
+}
+.text1-img-heading img
+{
+    width: 40px;
+}
+.text1 
+{
+    width: 20%;
+    align-items: center;
+}
+.textCommon
+{
+    text-align: center;
+}
+.textCommon ul li
+{
+    color: white;
+    list-style: none;
+}
